@@ -1,0 +1,13 @@
+summarize_task:
+  description: >
+    Summarize {text} into a concise yet engaging paragraph that maintains the emotional and narrative tone of the original.
+  expected_output: >
+    A well-structured summary of 3-5 sentences that captures the essence and style of the original content.
+  agent: creative_writer_agent
+
+rewrite_task:
+  description: >
+    Rewrite {text} in a more persuasive and polished style suitable for a professional publication or brand article.
+  expected_output: >
+    A rewritten version that improves clarity, tone, and readability while preserving the original intent.
+  agent: creative_writer_agent
