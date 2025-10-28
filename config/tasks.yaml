@@ -11,3 +11,10 @@ rewrite_task:
   expected_output: >
     A rewritten version that improves clarity, tone, and readability while preserving the original intent.
   agent: creative_writer_agent
+
+count_task:
+  description: >
+    Count the amount of letters in a sentence.
+  expected_output: >
+    The number of letters in a sentence.
+  agent: counter_agent
